@@ -122,7 +122,7 @@ export class Telegram {
       logger.info(`Session ${this.session} - Resolving Peer`);
       while (this.peer == undefined) {
         try {
-          this.peer = await this.client.getEntity("PoPPtothemoon_bot");
+          this.peer = await this.client.getEntity("cowtopiabot");
           break;
         } catch (error) {
           if (error instanceof FloodWaitError) {
