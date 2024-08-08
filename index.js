@@ -48,6 +48,7 @@ async function operation(acc, query, queryObj) {
         await cowtopia.checkMission(item.key);
       }
     }
+    await cowtopia.getGameInfo();
 
     twist.clear(acc);
     twist.clearInfo();
