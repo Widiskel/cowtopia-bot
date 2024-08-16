@@ -9,8 +9,8 @@ async function operation(acc, query, queryObj) {
   try {
     const cowtopia = new Cowtopia(acc, query, queryObj);
     await cowtopia.login();
-    await cowtopia.getGameInfo();
-
+    await cowtopia.getGameInfo(true);
+    await cowtopia.initWss();
     await cowtopia.claimOfflineProfit();
 
     await cowtopia.getMission();
@@ -48,7 +48,7 @@ async function operation(acc, query, queryObj) {
         await cowtopia.checkMission(item.key);
       }
     }
-    await cowtopia.getGameInfo();
+    await cowtopia.conquest();
 
     twist.clear(acc);
     twist.clearInfo();
