@@ -31,6 +31,8 @@ New Airdrops : Cowtopia
 
 - Auto Claim Offline Profit
 - Auto Complete Mission
+- Always Farming
+- Auto Conquest
 
 ## Prerequisite
 
