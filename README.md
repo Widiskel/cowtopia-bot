@@ -44,7 +44,7 @@ New Airdrops : Cowtopia
 1. clone project repo `git clone https://github.com/Widiskel/cowtopia-bot.git` and cd to project dir `cd cowtopia-bot`
 2. run `npm install`
 3. run `npm i telegram@2.22.2`
-4. run `cp src/config/config_tmp.js src/config/config.js`
+4. run `cp config/config_tmp.js config/config.js`
    To configure the app, open `src/config.js` and add your telegram app id and hash there
 5. run `mkdir sessions`
 6. to start the app run `npm run start`

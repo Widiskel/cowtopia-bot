@@ -5,8 +5,9 @@
   "description": "Cowtopia Mining Bot",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "node test.js"
+    "start": "node app/index.js",
+    "test": "node test.js",
+    "build": "javascript-obfuscator --config build-config.json"
   },
   "keywords": [
     "cowtopia",

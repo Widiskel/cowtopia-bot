@@ -1,4 +1,4 @@
-import { Config } from "./src/config/config.js";
+import { Config } from "./config/config.js";
 import { Cowtopia } from "./src/core/cowtopia.js";
 import { Telegram } from "./src/core/telegram.js";
 import { Helper } from "./src/utils/helper.js";

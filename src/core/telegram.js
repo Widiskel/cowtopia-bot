@@ -1,10 +1,10 @@
 import input from "input";
 import { Helper } from "../utils/helper.js";
-import { Config } from "../config/config.js";
 import { Api, TelegramClient } from "telegram";
 import { StoreSession } from "telegram/sessions/StoreSession.js";
 import logger from "../utils/logger.js";
 import { FloodWaitError } from "telegram/errors/RPCErrorList.js";
+import { Config } from "../../config/config.js";
 
 export class Telegram {
   storeSession;
